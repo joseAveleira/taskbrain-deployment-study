@@ -1,0 +1,513 @@
+{
+  "cohorte": {
+    "intentos_produccion": 111,
+    "alumnos_distintos": 91,
+    "cursos": 6,
+    "actividades": 6,
+    "consentimientos_total": 93,
+    "respuestas": 1082,
+    "periodo": [
+      "2026-04-29T11:49:06.370Z",
+      "2026-06-08T09:24:11.833Z"
+    ],
+    "intentos_totales_bd_incl_piloto": 128
+  },
+  "por_actividad": {
+    "A1-Trial": {
+      "actividad_moodle": "Primera prueba aula 1002",
+      "curso": "Prueba Taskbrain",
+      "alumnos": 12,
+      "intentos": 12,
+      "nota_media": 7.59,
+      "nota_sd": 1.48,
+      "nota_min": 4.44,
+      "nota_max": 10.0,
+      "duracion_media_min": 5.3,
+      "incidencias": 0,
+      "incidencias_por_intento_pct": 0.0
+    },
+    "A2-IoTData": {
+      "actividad_moodle": "Trabajo sobre Meshtastic",
+      "curso": "SERVICIOS DE DATOS EN INTERNET DE LAS COSAS",
+      "alumnos": 11,
+      "intentos": 11,
+      "nota_media": 7.27,
+      "nota_sd": 1.69,
+      "nota_min": 4.44,
+      "nota_max": 9.44,
+      "duracion_media_min": 5.8,
+      "incidencias": 2,
+      "incidencias_por_intento_pct": 18.2
+    },
+    "A3-5G": {
+      "actividad_moodle": "Contenidos 5G",
+      "curso": "Redes Móviles Inalámbricas",
+      "alumnos": 26,
+      "intentos": 26,
+      "nota_media": 9.0,
+      "nota_sd": 1.2,
+      "nota_min": 6.0,
+      "nota_max": 10.0,
+      "duracion_media_min": 4.3,
+      "incidencias": 0,
+      "incidencias_por_intento_pct": 0.0
+    },
+    "A4-IoTCloud": {
+      "actividad_moodle": "Meshtastic Tarea",
+      "curso": "Internet de las Cosas y Cloud",
+      "alumnos": 5,
+      "intentos": 5,
+      "nota_media": 6.39,
+      "nota_sd": 1.62,
+      "nota_min": 3.89,
+      "nota_max": 7.78,
+      "duracion_media_min": 4.6,
+      "incidencias": 2,
+      "incidencias_por_intento_pct": 20.0
+    },
+    "A5-SemWeb": {
+      "actividad_moodle": "ENTREGA PRACTICA FINAL",
+      "curso": "Técnicas de Modelado Semántico en la Web",
+      "alumnos": 27,
+      "intentos": 27,
+      "nota_media": 7.95,
+      "nota_sd": 0.99,
+      "nota_min": 5.0,
+      "nota_max": 9.0,
+      "duracion_media_min": 4.6,
+      "incidencias": 7,
+      "incidencias_por_intento_pct": 22.2
+    },
+    "A6-LinkedData": {
+      "actividad_moodle": "Nombre Tarea",
+      "curso": "Modelado Semántico En La Web y Linked Data",
+      "alumnos": 30,
+      "intentos": 30,
+      "nota_media": 7.61,
+      "nota_sd": 1.01,
+      "nota_min": 4.5,
+      "nota_max": 9.0,
+      "duracion_media_min": 6.0,
+      "incidencias": 21,
+      "incidencias_por_intento_pct": 43.3
+    }
+  },
+  "respuestas_por_tipo": {
+    "test": {
+      "correcta": 805,
+      "incorrecta": 105,
+      "no_respondida": 2
+    },
+    "breve": {
+      "sin_evaluar": 36,
+      "parcial": 104,
+      "incorrecta": 27,
+      "no_respondida": 3
+    }
+  },
+  "nota_media_por_tipo": {
+    "test": {
+      "n": 912,
+      "media": 0.883,
+      "sd": 0.322
+    },
+    "breve": {
+      "n": 170,
+      "media": 0.322,
+      "sd": 0.254
+    }
+  },
+  "incidencias": {
+    "total": 32,
+    "intentos_con_incidencia": 22,
+    "pct_intentos_con_incidencia": 19.8,
+    "pct_respuestas_contestadas": 2.96,
+    "por_tipo_pregunta": {
+      "test": 5,
+      "respuesta_breve": 27
+    },
+    "por_resultado_al_reportar": {
+      "correcta": 2,
+      "parcial": 11,
+      "sin_evaluar(0_provisional)": 15,
+      "incorrecta": 4
+    },
+    "por_actividad": {
+      "A2-IoTData": 2,
+      "A4-IoTCloud": 2,
+      "A5-SemWeb": 7,
+      "A6-LinkedData": 21
+    },
+    "con_ajuste_posterior": 1,
+    "longitud_texto_mediana": 129,
+    "tasa_objecion_breves_evaluadas_pct": 8.96,
+    "tasa_objecion_test_pct": 0.55
+  },
+  "ciclo_profesor": {
+    "intentos_reviewed": 3,
+    "alumnos_cerraron_revision": 82,
+    "respuestas_con_ajuste_manual": 5,
+    "estados_intentos": {
+      "submitted": 43,
+      "auto_evaluated": 65,
+      "reviewed": 3
+    }
+  },
+  "pipeline_ia": {
+    "quiz_generation": {
+      "llamadas": 111,
+      "parse_ok": 111,
+      "errores": 0,
+      "tok_in": 0,
+      "tok_out": 0,
+      "reintentos": 0,
+      "tasa_error_pct": 0.0
+    },
+    "brief_evaluation": {
+      "llamadas": 85,
+      "parse_ok": 67,
+      "errores": 18,
+      "tok_in": 203345,
+      "tok_out": 45747,
+      "reintentos": 0,
+      "tasa_error_pct": 21.2
+    },
+    "_nota": "cohorte: 196 de 227 llamadas del snapshot (excluidas 31 de pruebas/piloto fuera de cohorte)",
+    "breves_sin_evaluacion_visible": 36,
+    "breves_total": 170,
+    "intentos_atascados_submitted": 43
+  },
+  "breves_notas_auto": {
+    "con_nota_automatica": 134,
+    "sin_nota_visible": 36,
+    "por_nota": {
+      "0": 27,
+      "0.25": 5,
+      "0.5": 102
+    },
+    "con_nota_maxima_auto": 0,
+    "nota_final_max": [
+      "0.44999999999999996",
+      "0.5",
+      "0.999"
+    ]
+  },
+  "cierre_vs_objecion": {
+    "cerraron_revision": 82,
+    "cerraron_con_objecion": 21,
+    "cerraron_sin_objecion": 61,
+    "intentos_con_objecion": 22,
+    "intentos_sin_objecion_alguna": 89
+  },
+  "coste": {
+    "eval_breves_medido_usd": 0.97,
+    "eval_tokens": {
+      "in": 203345,
+      "out": 45747
+    },
+    "generacion_tokens_registrados_cohorte": false,
+    "generacion_por_llamada_piloto": {
+      "in": 6458,
+      "out": 1026,
+      "n_piloto": 11
+    },
+    "generacion_estimada_usd": 2.93,
+    "coste_total_estimado_usd": 3.9,
+    "coste_por_intento_usd": 0.0351,
+    "precios_usd_por_M": {
+      "entrada": 2.5,
+      "salida": 10.0
+    },
+    "nota": "evaluación de breves MEDIDA (85 llamadas con tokens); generación de cohorte SIN tokens registrados, estimada desde generaciones del piloto"
+  },
+  "incidencias_textos": [
+    {
+      "id": 1,
+      "actividad": "A2-IoTData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "parcial",
+      "nota_auto": "0.5",
+      "ajustada": "SI",
+      "texto": "Mi respuesta creo que es bastante solida explicada de una forma mas natural, pero similar en el contenido a la respuesta original. No he recibido nada de puntuacion."
+    },
+    {
+      "id": 2,
+      "actividad": "A2-IoTData",
+      "tipo": "test",
+      "resultado_al_reportar": "correcta",
+      "nota_auto": "1",
+      "ajustada": "NO",
+      "texto": "En el trabajo, los roles salen únicamente enumerados y en la pregunta se ha pedido señalar a partir de una descripción (descripción que únicamente sale en la referencia)."
+    },
+    {
+      "id": 3,
+      "actividad": "A4-IoTCloud",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "La respuesta es correcta pero no está escrito tal como en el documento del trabajo, por tanto no pasa los criterios de evaluación."
+    },
+    {
+      "id": 4,
+      "actividad": "A4-IoTCloud",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "La respuesta es correcta pero no está escrito tal como en el documento del trabajo, por tanto no pasa los criterios de evaluación."
+    },
+    {
+      "id": 5,
+      "actividad": "A5-SemWeb",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "parcial",
+      "nota_auto": "0.5",
+      "ajustada": "NO",
+      "texto": "He puesto prácticamente lo mismo que en el apartado \"Limpieza de datos\" de mi documento."
+    },
+    {
+      "id": 6,
+      "actividad": "A5-SemWeb",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "Creo que la respuesta proporcionada por mi es como mínimo aceptable. He mencionado al menos dos medidas de accesibilidad y he explicado que ayudan a x o y tipos de usuarios con necesidades especiales."
+    },
+    {
+      "id": 7,
+      "actividad": "A5-SemWeb",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "Creo que la respuesta proporcionada por mi es como mínimo aceptable. He mencionado al menos dos medidas de accesibilidad y he explicado que ayudan a x o y tipos de usuarios con necesidades especiales. (he puesto la incidencia donde no es, mb)"
+    },
+    {
+      "id": 8,
+      "actividad": "A5-SemWeb",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "parcial",
+      "nota_auto": "0.5",
+      "ajustada": "NO",
+      "texto": "la respuesta aportada no es del todo mala, puesto que se menciona el algoritmo de proximidad, solo que redactado de otra manera"
+    },
+    {
+      "id": 9,
+      "actividad": "A5-SemWeb",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "incorrecta",
+      "nota_auto": "0",
+      "ajustada": "NO",
+      "texto": "La respuesta es parcialmente correcta, debido a que si que utiliza un algoritmo de proximidad para enlazar las áreas deportivas y las estaciones de calidad del aire."
+    },
+    {
+      "id": 10,
+      "actividad": "A5-SemWeb",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "parcial",
+      "nota_auto": "0.5",
+      "ajustada": "NO",
+      "texto": "Creo que la pregunta en general no tiene una respuesta definida en el documento. Se pasa muy por encima por la API y apenas se listan unos endpoints. Se está preguntando por información que no existe en el documento."
+    },
+    {
+      "id": 11,
+      "actividad": "A5-SemWeb",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "Se diferencian las 3 situaciones de ingesta de datos dependiendo de la fuente, 2 APIs y 1 datos estáticos con descarga manual. Se menciona la validación de campos con valores límite. Se indica la transformación a XML en AEMET y ficheros de transporte, y utilización de JSON en OpenAQ."
+    },
+    {
+      "id": 12,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "Lo he dicho pero con otras palabras puede que no tan específicom en lugar de cruce, agrupación."
+    },
+    {
+      "id": 13,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "Está explicado perfectamente. Es CRUCIAL"
+    },
+    {
+      "id": 14,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "parcial",
+      "nota_auto": "0.5",
+      "ajustada": "NO",
+      "texto": "Creo que debería coger más opciones de respuesta"
+    },
+    {
+      "id": 15,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "parcial",
+      "nota_auto": "0.5",
+      "ajustada": "NO",
+      "texto": "no estoy de acuerdo con la calificación porque, aunque no esta completa, hago referencia a la estructuración a partir de RDF y SHACL."
+    },
+    {
+      "id": 16,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "Ya he indicado que he usado las LSTMs por la necesidad de procesar series secuenciales/temporales, evidentemente para los datos bursátiles"
+    },
+    {
+      "id": 17,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "Porque la respuesta que he puesto es exactamente lo que había que poner"
+    },
+    {
+      "id": 18,
+      "actividad": "A6-LinkedData",
+      "tipo": "test",
+      "resultado_al_reportar": "incorrecta",
+      "nota_auto": "0",
+      "ajustada": "NO",
+      "texto": "La pregunta es ridícula, requiere saber el orden en el que se redactó el proyecto. El orden en el que se expusieron en la memoria fue aleatorio."
+    },
+    {
+      "id": 19,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "parcial",
+      "nota_auto": "0.5",
+      "ajustada": "NO",
+      "texto": "no se que espera la IA :/, quiza la respuesta fue un poco mas general de lo que ponia el texto o esta diferente explicado y por eso no lo entiende"
+    },
+    {
+      "id": 20,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "Creo que mi respuesta si que es lo que había que poner"
+    },
+    {
+      "id": 21,
+      "actividad": "A6-LinkedData",
+      "tipo": "test",
+      "resultado_al_reportar": "correcta",
+      "nota_auto": "1",
+      "ajustada": "NO",
+      "texto": "el scatter plot tambien dejjaria aunque no de forma tan clara"
+    },
+    {
+      "id": 22,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "parcial",
+      "nota_auto": "0.5",
+      "ajustada": "NO",
+      "texto": "No parece por la pregunta que haya que nombrar las APIs"
+    },
+    {
+      "id": 23,
+      "actividad": "A6-LinkedData",
+      "tipo": "test",
+      "resultado_al_reportar": "incorrecta",
+      "nota_auto": "0",
+      "ajustada": "NO",
+      "texto": "No sé si en la memoria está perfectamentamente reflejado pero ambas serían correctas"
+    },
+    {
+      "id": 24,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "parcial",
+      "nota_auto": "0.5",
+      "ajustada": "NO",
+      "texto": "No comprendo la calificación, pues los puntos que se deben abordar están explicados en la respuesta."
+    },
+    {
+      "id": 25,
+      "actividad": "A6-LinkedData",
+      "tipo": "test",
+      "resultado_al_reportar": "incorrecta",
+      "nota_auto": "0",
+      "ajustada": "NO",
+      "texto": "El objetivo principal del proyecto es crear árboles genealógicos de los personajes ficticios y para ello se resuelven discrepancias, por lo que la respuesta B (Conectar productos cinematográficos, televisivos, literarios y de cómics/mangas) es menos correcta que la respuesta A (Resolver discrepancias en teorías cinematográficas)."
+    },
+    {
+      "id": 26,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "No puede ser respuesta breve si se espera describir y explicar."
+    },
+    {
+      "id": 27,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "parcial",
+      "nota_auto": "0.5",
+      "ajustada": "NO",
+      "texto": "Deberia dar parte de puntuacion y analizar mejor el lenguaje natural"
+    },
+    {
+      "id": 28,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "Aunque se mencionan las herramientas utilizadas (SHACL y ShEx), la respuesta se marca como errónea. Quizá sea porque la justificación que se ofrece."
+    },
+    {
+      "id": 29,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "Aunque se menciona la relación entre las patologías del usuario y los contaminantes medidos, la respuesta se marca como errónea."
+    },
+    {
+      "id": 30,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "Creo que he mencionado y hablado sobre los diferentes aspectos del preprocesado de los datos GBIF"
+    },
+    {
+      "id": 31,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "SIN_EVALUAR",
+      "nota_auto": "",
+      "ajustada": "NO",
+      "texto": "Creo que he mencionado y hablado de los criterios de evaluación para esta pregunta"
+    },
+    {
+      "id": 32,
+      "actividad": "A6-LinkedData",
+      "tipo": "respuesta_breve",
+      "resultado_al_reportar": "parcial",
+      "nota_auto": "0.5",
+      "ajustada": "NO",
+      "texto": "En la respuesta breve se incluyen terminos que se encuentran en los criterios de evaluación, como el Html, d3, el mapa interactivo o la visualización del grafo."
+    }
+  ]
+}

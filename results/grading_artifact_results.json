@@ -1,0 +1,85 @@
+{
+  "calls": {
+    "generation": 111,
+    "grading": 85,
+    "grading_rejected": 18
+  },
+  "proposed": {
+    "accepted": {
+      "0.5": 102,
+      "0.0": 27,
+      "0.25": 5
+    },
+    "rejected": {
+      "0.5": 12,
+      "0.75": 19,
+      "1.0": 4,
+      "0.25": 1
+    },
+    "mean_accepted": 0.39,
+    "mean_rejected": 0.681
+  },
+  "stored": {
+    "with_score": 134,
+    "without_score": 36,
+    "counted_as_zero": 34
+  },
+  "per_activity": {
+    "Familiarisation session": {
+      "n": 12,
+      "M": 7.59,
+      "M_sd": 1.48,
+      "Mstar": 8.49,
+      "Mstar_sd": 1.85,
+      "unscored": 10
+    },
+    "Data Services in IoT": {
+      "n": 11,
+      "M": 7.27,
+      "M_sd": 1.69,
+      "Mstar": 7.47,
+      "Mstar_sd": 1.88,
+      "unscored": 2
+    },
+    "Mobile and Wireless Netw.": {
+      "n": 26,
+      "M": 9.0,
+      "M_sd": 1.2,
+      "Mstar": 9.0,
+      "Mstar_sd": 1.2,
+      "unscored": 0
+    },
+    "IoT and Cloud": {
+      "n": 5,
+      "M": 6.39,
+      "M_sd": 1.62,
+      "Mstar": 6.83,
+      "Mstar_sd": 2.27,
+      "unscored": 2
+    },
+    "Semantic Web Modelling": {
+      "n": 27,
+      "M": 7.95,
+      "M_sd": 0.99,
+      "Mstar": 8.18,
+      "Mstar_sd": 1.19,
+      "unscored": 6
+    },
+    "Semantic Mod. and Linked Data": {
+      "n": 30,
+      "M": 7.61,
+      "M_sd": 1.01,
+      "Mstar": 8.05,
+      "Mstar_sd": 1.3,
+      "unscored": 14
+    }
+  },
+  "objections": {
+    "total": 32,
+    "against_unscored": 15
+  },
+  "cost_usd": {
+    "grading": 0.97,
+    "generation_est": 2.93
+  }
+}
